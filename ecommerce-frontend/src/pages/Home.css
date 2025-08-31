@@ -1,0 +1,70 @@
+.hero {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.featured-products {
+  padding: 80px 0;
+}
+
+.featured-products h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.features {
+  background: #f8f9fa;
+  padding: 80px 0;
+}
+
+.feature-card {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+  }
+  
+  .hero {
+    padding: 60px 0;
+  }
+  
+  .featured-products,
+  .features {
+    padding: 60px 0;
+  }
+}
